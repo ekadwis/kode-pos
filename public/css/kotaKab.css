@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --bs-purple: #6e33f5;
+  --bs-purple-rgb: 110, 51, 245;
+  --bs-hasil: 56, 56, 56;
+  --bs-purple-rgb: 110, 51, 245;
+  --bs-darkgrey-rgb: 30, 30, 30;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text-purple {
+  color: #6e33f5 !important;
+}
+
+.bg-darkgrey {
+  --bs-bg-opacity: 1;
+  background-color: rgba(
+    var(--bs-darkgrey-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
+
+.border-darkgrey {
+  --bs-bg-opacity: 1;
+  background-color: rgba(
+    var(--bs-darkgrey-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
